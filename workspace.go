@@ -5,7 +5,7 @@ import (
 	"net/url"
 )
 
-const WorkspacePath = "Workspaces/"
+const WorkspacePath = "Workspaces"
 
 type WorkspaceCreator struct {
 	client *Client
