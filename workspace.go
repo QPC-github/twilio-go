@@ -22,7 +22,7 @@ type Workspace struct {
 	FriendlyName         string            `json:"friendly_name"`
 	Links                map[string]string `json:"links"`
 	MultiTaskEnabled     bool              `json:"multi_task_enabled"`
-	PrioritizeQueueOrder map[string]string `json:"prioritize_queue_order"`
+	PrioritizeQueueOrder string            `json:"prioritize_queue_order"`
 	Sid                  string            `json:"sid"`
 	TimeoutActivityName  string            `json:"timeout_activity_name"`
 	TimeoutActivitySid   string            `json:"timeout_activity_name"`
