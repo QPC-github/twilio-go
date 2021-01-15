@@ -18,7 +18,7 @@ type TaskChannel struct {
 	DateUpdated             TwilioTime        `json:"date_updated"`
 	FriendlyName            string            `json:"friendly_name"`
 	Sid                     string            `json:"sid"`
-	UniqueName              string            `json: "unique_name"`
+	UniqueName              string            `json:"unique_name"`
 	WorkspaceSid            string            `json:"workspace_sid"`
 	ChannelOptimizedRouting bool              `json:"channel_optimized_routing"`
 	URL                     string            `json:"url"`
