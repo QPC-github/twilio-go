@@ -18,14 +18,14 @@ type Workspace struct {
 	DefaultActivityName  string            `json:"default_activity_name"`
 	DefaultActivitySid   string            `json:"default_activity_sid"`
 	EventCallbackUrl     string            `json:"event_callback_url"`
-	EventsFilter         string            `json:"friendly_name"`
+	EventsFilter         string            `json:"events_filter"`
 	FriendlyName         string            `json:"friendly_name"`
 	Links                map[string]string `json:"links"`
 	MultiTaskEnabled     bool              `json:"multi_task_enabled"`
 	PrioritizeQueueOrder string            `json:"prioritize_queue_order"`
 	Sid                  string            `json:"sid"`
 	TimeoutActivityName  string            `json:"timeout_activity_name"`
-	TimeoutActivitySid   string            `json:"timeout_activity_name"`
+	TimeoutActivitySid   string            `json:"timeout_activity_sid"`
 	URL                  string            `json:"url"`
 }
 
